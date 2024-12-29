@@ -26,3 +26,11 @@ Provide the following information in the specified JSON format:
 )
 
 print(response.choices[0].message.content)
+
+# ```json
+# {
+#   "name": "Alex Johnson",
+#   "age": 35,
+#   "occupation": "Software Engineer"
+# }
+# ```

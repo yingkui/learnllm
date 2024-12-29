@@ -24,3 +24,9 @@ Provide the details for these individuals:
 )
 
 print(response.choices[0].message.content)
+
+# | Name       | Age | Occupation    |
+# |------------|-----|---------------|
+# | Alice      | 25  | Engineer      |
+# | Bob        | 30  | Teacher       |
+# | Carol      | 27  | Designer      |

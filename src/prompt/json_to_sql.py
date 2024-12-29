@@ -34,3 +34,8 @@ Transform the following data into the specified SQL insert format:
 )
 
 print(response.choices[0].message.content)
+# ```sql
+# INSERT INTO employees (id, name, role) VALUES
+# (1, 'Alice', 'Developer'),
+# (2, 'Bob', 'Manager');
+# ```

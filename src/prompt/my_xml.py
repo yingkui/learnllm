@@ -26,3 +26,9 @@ Provide the following information in the specified XML format:
 )
 
 print(response.choices[0].message.content)
+
+# <person>
+#     <name>Jane Smith</name>
+#     <age>28</age>
+#     <occupation>Data Scientist</occupation>
+# </person>
