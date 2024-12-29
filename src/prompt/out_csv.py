@@ -23,5 +23,5 @@ Provide the following information in the specified CSV format:
 )
 
 print(response.choices[0].message.content)
-# Name,Age,City  
+# Name,Age,City
 # Liam,22,Sydney
